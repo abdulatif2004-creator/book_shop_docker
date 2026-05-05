@@ -1,3 +1,20 @@
-# Django 4.0.4 Tutorial Series
-## Full Documentation is here 
-[Django 4.0.4 Best Practices Tutorial : Part 1](https://ayat.hashnode.dev/django-404-best-practices-tutorial-part-1)
+# Book Shop Docker Deployment
+
+## Run
+
+docker compose up --build
+
+## Access
+
+http://localhost
+
+## Services
+
+- Django backend
+- PostgreSQL database
+- Nginx reverse proxy
+
+## Notes
+
+- Uses PostgreSQL instead of SQLite
+- Environment variables via .env
